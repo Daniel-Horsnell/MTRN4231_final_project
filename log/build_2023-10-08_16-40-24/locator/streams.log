@@ -1,0 +1,42 @@
+[0.051s] Invoking command in '/home/mtrn/4231/MTRN4231_final_project/build/locator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/mtrn/4231/MTRN4231_final_project/locator -DCMAKE_INSTALL_PREFIX=/home/mtrn/4231/MTRN4231_final_project/install/locator
+[0.226s] -- The C compiler identification is GNU 11.4.0
+[0.358s] -- The CXX compiler identification is GNU 11.4.0
+[0.370s] -- Detecting C compiler ABI info
+[0.482s] -- Detecting C compiler ABI info - done
+[0.489s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.489s] -- Detecting C compile features
+[0.490s] -- Detecting C compile features - done
+[0.492s] -- Detecting CXX compiler ABI info
+[0.606s] -- Detecting CXX compiler ABI info - done
+[0.628s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.628s] -- Detecting CXX compile features
+[0.629s] -- Detecting CXX compile features - done
+[0.637s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.872s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.062s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.237s] -- Added test 'lint_cmake' to check CMake code style
+[1.240s] -- Added test 'xmllint' to check XML markup files
+[1.243s] -- Configuring done
+[1.245s] -- Generating done
+[1.246s] -- Build files have been written to: /home/mtrn/4231/MTRN4231_final_project/build/locator
+[1.250s] Invoked command in '/home/mtrn/4231/MTRN4231_final_project/build/locator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/mtrn/4231/MTRN4231_final_project/locator -DCMAKE_INSTALL_PREFIX=/home/mtrn/4231/MTRN4231_final_project/install/locator
+[1.252s] Invoking command in '/home/mtrn/4231/MTRN4231_final_project/build/locator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/4231/MTRN4231_final_project/build/locator -- -j4 -l4
+[1.304s] Invoked command in '/home/mtrn/4231/MTRN4231_final_project/build/locator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/4231/MTRN4231_final_project/build/locator -- -j4 -l4
+[1.351s] Invoking command in '/home/mtrn/4231/MTRN4231_final_project/build/locator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mtrn/4231/MTRN4231_final_project/build/locator
+[1.360s] -- Install configuration: ""
+[1.360s] -- Installing: /home/mtrn/4231/MTRN4231_final_project/install/locator/share/ament_index/resource_index/package_run_dependencies/locator
+[1.360s] -- Installing: /home/mtrn/4231/MTRN4231_final_project/install/locator/share/ament_index/resource_index/parent_prefix_path/locator
+[1.361s] -- Installing: /home/mtrn/4231/MTRN4231_final_project/install/locator/share/locator/environment/ament_prefix_path.sh
+[1.361s] -- Installing: /home/mtrn/4231/MTRN4231_final_project/install/locator/share/locator/environment/ament_prefix_path.dsv
+[1.361s] -- Installing: /home/mtrn/4231/MTRN4231_final_project/install/locator/share/locator/environment/path.sh
+[1.361s] -- Installing: /home/mtrn/4231/MTRN4231_final_project/install/locator/share/locator/environment/path.dsv
+[1.361s] -- Installing: /home/mtrn/4231/MTRN4231_final_project/install/locator/share/locator/local_setup.bash
+[1.361s] -- Installing: /home/mtrn/4231/MTRN4231_final_project/install/locator/share/locator/local_setup.sh
+[1.361s] -- Installing: /home/mtrn/4231/MTRN4231_final_project/install/locator/share/locator/local_setup.zsh
+[1.361s] -- Installing: /home/mtrn/4231/MTRN4231_final_project/install/locator/share/locator/local_setup.dsv
+[1.361s] -- Installing: /home/mtrn/4231/MTRN4231_final_project/install/locator/share/locator/package.dsv
+[1.362s] -- Installing: /home/mtrn/4231/MTRN4231_final_project/install/locator/share/ament_index/resource_index/packages/locator
+[1.362s] -- Installing: /home/mtrn/4231/MTRN4231_final_project/install/locator/share/locator/cmake/locatorConfig.cmake
+[1.362s] -- Installing: /home/mtrn/4231/MTRN4231_final_project/install/locator/share/locator/cmake/locatorConfig-version.cmake
+[1.362s] -- Installing: /home/mtrn/4231/MTRN4231_final_project/install/locator/share/locator/package.xml
+[1.364s] Invoked command in '/home/mtrn/4231/MTRN4231_final_project/build/locator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mtrn/4231/MTRN4231_final_project/build/locator

@@ -1,0 +1,2 @@
+Invoking command in '/home/mtrn/4231/MTRN4231_final_project/build/image_processing': /usr/bin/cmake /home/mtrn/4231/MTRN4231_final_project/image_processing -DCMAKE_INSTALL_PREFIX=/home/mtrn/4231/MTRN4231_final_project/install/image_processing
+Invoked command in '/home/mtrn/4231/MTRN4231_final_project/build/image_processing' returned '1': /usr/bin/cmake /home/mtrn/4231/MTRN4231_final_project/image_processing -DCMAKE_INSTALL_PREFIX=/home/mtrn/4231/MTRN4231_final_project/install/image_processing
