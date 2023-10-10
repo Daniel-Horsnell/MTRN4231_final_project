@@ -1,0 +1,24 @@
+[2.155s] Invoking command in '/home/mtrn/4231/MTRN4231_final_project/image_processing': PYTHONPATH=/home/mtrn/4231/MTRN4231_final_project/build/image_processing/prefix_override:/home/mtrn/4231/MTRN4231_final_project/install/image_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/image_processing build --build-base /home/mtrn/4231/MTRN4231_final_project/build/image_processing/build install --record /home/mtrn/4231/MTRN4231_final_project/build/image_processing/install.log --single-version-externally-managed
+[2.531s] running egg_info
+[2.532s] writing ../build/image_processing/image_processing.egg-info/PKG-INFO
+[2.533s] writing dependency_links to ../build/image_processing/image_processing.egg-info/dependency_links.txt
+[2.534s] writing entry points to ../build/image_processing/image_processing.egg-info/entry_points.txt
+[2.536s] writing requirements to ../build/image_processing/image_processing.egg-info/requires.txt
+[2.537s] writing top-level names to ../build/image_processing/image_processing.egg-info/top_level.txt
+[2.540s] reading manifest file '../build/image_processing/image_processing.egg-info/SOURCES.txt'
+[2.542s] writing manifest file '../build/image_processing/image_processing.egg-info/SOURCES.txt'
+[2.543s] running build
+[2.543s] running build_py
+[2.544s] copying image_processing/smile_detector_node.py -> /home/mtrn/4231/MTRN4231_final_project/build/image_processing/build/lib/image_processing
+[2.545s] running install
+[2.546s] running install_lib
+[2.549s] copying /home/mtrn/4231/MTRN4231_final_project/build/image_processing/build/lib/image_processing/smile_detector_node.py -> /home/mtrn/4231/MTRN4231_final_project/install/image_processing/lib/python3.10/site-packages/image_processing
+[2.551s] byte-compiling /home/mtrn/4231/MTRN4231_final_project/install/image_processing/lib/python3.10/site-packages/image_processing/smile_detector_node.py to smile_detector_node.cpython-310.pyc
+[2.556s] running install_data
+[2.558s] running install_egg_info
+[2.570s] removing '/home/mtrn/4231/MTRN4231_final_project/install/image_processing/lib/python3.10/site-packages/image_processing-0.0.0-py3.10.egg-info' (and everything under it)
+[2.582s] Copying ../build/image_processing/image_processing.egg-info to /home/mtrn/4231/MTRN4231_final_project/install/image_processing/lib/python3.10/site-packages/image_processing-0.0.0-py3.10.egg-info
+[2.595s] running install_scripts
+[2.636s] Installing smile_detector_node script to /home/mtrn/4231/MTRN4231_final_project/install/image_processing/lib/image_processing
+[2.637s] writing list of installed files to '/home/mtrn/4231/MTRN4231_final_project/build/image_processing/install.log'
+[2.686s] Invoked command in '/home/mtrn/4231/MTRN4231_final_project/image_processing' returned '0': PYTHONPATH=/home/mtrn/4231/MTRN4231_final_project/build/image_processing/prefix_override:/home/mtrn/4231/MTRN4231_final_project/install/image_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/image_processing build --build-base /home/mtrn/4231/MTRN4231_final_project/build/image_processing/build install --record /home/mtrn/4231/MTRN4231_final_project/build/image_processing/install.log --single-version-externally-managed
