@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mtrn/4231/MTRN4231_final_project/path_planning
+CMAKE_SOURCE_DIR = /home/mtrn/MTRN4231_final_project/path_planning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mtrn/4231/MTRN4231_final_project/build/path_planning
+CMAKE_BINARY_DIR = /home/mtrn/MTRN4231_final_project/build/path_planning
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/mtrn/4231/MTRN4231_final_project/build/path_planning && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/MTRN4231_final_project/path_planning /home/mtrn/4231/MTRN4231_final_project/path_planning /home/mtrn/4231/MTRN4231_final_project/build/path_planning /home/mtrn/4231/MTRN4231_final_project/build/path_planning /home/mtrn/4231/MTRN4231_final_project/build/path_planning/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mtrn/MTRN4231_final_project/build/path_planning && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/MTRN4231_final_project/path_planning /home/mtrn/MTRN4231_final_project/path_planning /home/mtrn/MTRN4231_final_project/build/path_planning /home/mtrn/MTRN4231_final_project/build/path_planning /home/mtrn/MTRN4231_final_project/build/path_planning/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

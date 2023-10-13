@@ -1,0 +1,113 @@
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:59:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ was not declared in this scope
+   59 |     void remove_values_within_range(std::vector<[01;31m[Kint32[m[K> &firstArray, const std::vector<int32> &secondArray, int32 range) {
+      |                                                 [01;31m[K^~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:59:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   59 |     void remove_values_within_range(std::vector<int32[01;31m[K>[m[K &firstArray, const std::vector<int32> &secondArray, int32 range) {
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:59:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:59:87:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ was not declared in this scope
+   59 |     void remove_values_within_range(std::vector<int32> &firstArray, const std::vector<[01;31m[Kint32[m[K> &secondArray, int32 range) {
+      |                                                                                       [01;31m[K^~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:59:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   59 |     void remove_values_within_range(std::vector<int32> &firstArray, const std::vector<int32[01;31m[K>[m[K &secondArray, int32 range) {
+      |                                                                                            [01;31m[K^[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:59:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:59:108:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ has not been declared
+   59 |     void remove_values_within_range(std::vector<int32> &firstArray, const std::vector<int32> &secondArray, [01;31m[Kint32[m[K range) {
+      |                                                                                                            [01;31m[K^~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:82:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ was not declared in this scope
+   82 |     std::vector<[01;31m[Kint32[m[K> colours;
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:82:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   82 |     std::vector<int32[01;31m[K>[m[K colours;
+      |                      [01;31m[K^[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:82:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:83:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ was not declared in this scope
+   83 |     std::vector<[01;31m[Kint32[m[K> colours_processed;
+      |                 [01;31m[K^~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:83:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   83 |     std::vector<int32[01;31m[K>[m[K colours_processed;
+      |                      [01;31m[K^[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:83:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:[m[K In lambda function:
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:16:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   16 |             [this]([01;35m[Kconst tf2_msgs::msg::TFMessage::SharedPtr msg[m[K) {
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:[m[K In lambda function:
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:26:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   26 |             [this]([01;35m[Kconst geometry_msgs::msg::Point32::SharedPtr msg[m[K) {
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:[m[K In member function ‘[01m[Kvoid BrainNode::handle_pen_colours(std_msgs::msg::Int32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:39:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[K((BrainNode*)this)->BrainNode::colours[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   39 |         if (colours.[01;31m[Ksize[m[K() == 0) {
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:41:41:[m[K [01;35m[Kwarning: [m[Kdivision ‘[01m[Ksizeof (std_msgs::msg::Int32MultiArray_<std::allocator<void> >*) / sizeof (std_msgs::msg::Int32MultiArray_<std::allocator<void> >)[m[K’ does not compute the number of array elements [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-pointer-div-Wsizeof-pointer-div]8;;[m[K]
+   41 |             int N = [01;35m[Ksizeof(colours_arr) / sizeof(colours_arr[0])[m[K;
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:40:18:[m[K [01;36m[Knote: [m[Kfirst ‘[01m[Ksizeof[m[K’ operand was declared here
+   40 |             auto [01;36m[Kcolours_arr[m[K = msg.get();
+      |                  [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:42:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kinsert[m[K’ in ‘[01m[K((BrainNode*)this)->BrainNode::colours[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   42 |             colours.[01;31m[Kinsert[m[K(colours.begin(), colours_arr, colours_arr + N);
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:42:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kbegin[m[K’ in ‘[01m[K((BrainNode*)this)->BrainNode::colours[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   42 |             colours.insert(colours.[01;31m[Kbegin[m[K(), colours_arr, colours_arr + N);
+      |                                    [01;31m[K^~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:43:28:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[K((BrainNode*)this)->BrainNode::colours[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   43 |         } else if (colours.[01;31m[Ksize[m[K() != sizeof(msg.get())/sizeof(1)) {
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:45:41:[m[K [01;35m[Kwarning: [m[Kdivision ‘[01m[Ksizeof (std_msgs::msg::Int32MultiArray_<std::allocator<void> >*) / sizeof (std_msgs::msg::Int32MultiArray_<std::allocator<void> >)[m[K’ does not compute the number of array elements [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-pointer-div-Wsizeof-pointer-div]8;;[m[K]
+   45 |             int N = [01;35m[Ksizeof(colours_arr) / sizeof(colours_arr[0])[m[K;
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:44:18:[m[K [01;36m[Knote: [m[Kfirst ‘[01m[Ksizeof[m[K’ operand was declared here
+   44 |             auto [01;36m[Kcolours_arr[m[K = msg.get();
+      |                  [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:46:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ was not declared in this scope
+   46 |             std::vector<[01;31m[Kint32[m[K> recieved_colours;
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:46:30:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   46 |             std::vector<int32[01;31m[K>[m[K recieved_colours;
+      |                              [01;31m[K^[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:46:30:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:47:30:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kinsert[m[K’ in ‘[01m[Krecieved_colours[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   47 |             recieved_colours.[01;31m[Kinsert[m[K(recieved_colours.begin(), colours_arr, colours_arr + N);
+      |                              [01;31m[K^~~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:47:54:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kbegin[m[K’ in ‘[01m[Krecieved_colours[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   47 |             recieved_colours.insert(recieved_colours.[01;31m[Kbegin[m[K(), colours_arr, colours_arr + N);
+      |                                                      [01;31m[K^~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:51:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kmissing_colours[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   51 |             if (missing_colours.[01;31m[Ksize[m[K() != 0) {
+      |                                 [01;31m[K^~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:[m[K In member function ‘[01m[Kvoid BrainNode::remove_values_within_range(int&, const int&, int)[m[K’:
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:60:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kbegin[m[K’ in ‘[01m[KfirstArray[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   60 |         for (auto it = firstArray.[01;31m[Kbegin[m[K(); it != firstArray.end(); ) {
+      |                                   [01;31m[K^~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:60:61:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[KfirstArray[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   60 |         for (auto it = firstArray.begin(); it != firstArray.[01;31m[Kend[m[K(); ) {
+      |                                                             [01;31m[K^~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:62:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kint32[m[K’ does not name a type; did you mean ‘[01m[Kint32_t[m[K’?
+   62 |             for (const [01;31m[Kint32[m[K &secondValue : secondArray) {
+      |                        [01;31m[K^~~~~[m[K
+      |                        [32m[Kint32_t[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:68:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+   68 |             [01;31m[Kif[m[K (removeValue) {
+      |             [01;31m[K^~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:68:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kif[m[K’
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:68:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:68:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kif[m[K’
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:68:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kif[m[K’
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:62:17:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   62 |             for [01;36m[K([m[Kconst int32 &secondValue : secondArray) {
+      |                 [01;36m[K^[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:69:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kerase[m[K’ in ‘[01m[KfirstArray[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   69 |                 it = firstArray.[01;31m[Kerase[m[K(it);
+      |                                 [01;31m[K^~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:59:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsecondArray[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   59 |     void remove_values_within_range(std::vector<int32> &firstArray, [01;35m[Kconst std::vector<int32> &secondArray[m[K, int32 range) {
+      |                                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:59:114:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krange[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   59 |     void remove_values_within_range(std::vector<int32> &firstArray, const std::vector<int32> &secondArray, [01;35m[Kint32 range[m[K) {
+      |                                                                                                            [01;35m[K~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/brain_node.dir/build.make:76: CMakeFiles/brain_node.dir/src/brain_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/brain_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

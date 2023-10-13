@@ -1,0 +1,28 @@
+[0.438s] Invoking command in '/home/mtrn/MTRN4231_final_project/build/path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/MTRN4231_final_project/build/path_planning -- -j4 -l4
+[0.527s] [35m[1mConsolidate compiler generated dependencies of target brain_node[0m
+[0.553s] [ 50%] [32mBuilding CXX object CMakeFiles/brain_node.dir/src/brain_node.cpp.o[0m
+[3.554s] [01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:[m[K In lambda function:
+[3.554s] [01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:16:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.554s]    16 |             [this]([01;35m[Kconst tf2_msgs::msg::TFMessage::SharedPtr msg[m[K) {
+[3.554s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.565s] [01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:[m[K In lambda function:
+[3.566s] [01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:26:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.566s]    26 |             [this]([01;35m[Kconst geometry_msgs::msg::Point32::SharedPtr msg[m[K) {
+[3.566s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.569s] [01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:[m[K In member function ‘[01m[Kvoid BrainNode::handle_pen_colours(std_msgs::msg::Int32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.569s] [01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:41:41:[m[K [01;35m[Kwarning: [m[Kdivision ‘[01m[Ksizeof (std_msgs::msg::Int32MultiArray_<std::allocator<void> >*) / sizeof (std_msgs::msg::Int32MultiArray_<std::allocator<void> >)[m[K’ does not compute the number of array elements [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-pointer-div-Wsizeof-pointer-div]8;;[m[K]
+[3.569s]    41 |             int N = [01;35m[Ksizeof(colours_arr) / sizeof(colours_arr[0])[m[K;
+[3.569s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.570s] [01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:40:18:[m[K [01;36m[Knote: [m[Kfirst ‘[01m[Ksizeof[m[K’ operand was declared here
+[3.570s]    40 |             auto [01;36m[Kcolours_arr[m[K = msg.get();
+[3.570s]       |                  [01;36m[K^~~~~~~~~~~[m[K
+[3.570s] [01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:42:20:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(std::vector<int>) (std_msgs::msg::Int32MultiArray_<std::allocator<void> >*&, std_msgs::msg::Int32MultiArray_<std::allocator<void> >*)[m[K’
+[3.570s]    42 |             [01;31m[Kcolours(colours_arr, colours_arr + N)[m[K;
+[3.570s]       |             [01;31m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.570s] [01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:45:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[KremoveValuesWithinRange[m[K’
+[3.570s]    45 |             [01;31m[KremoveValuesWithinRange[m[K(missing_colours, msg.data, 0.15)
+[3.570s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.069s] gmake[2]: *** [CMakeFiles/brain_node.dir/build.make:76: CMakeFiles/brain_node.dir/src/brain_node.cpp.o] Error 1
+[8.069s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/brain_node.dir/all] Error 2
+[8.070s] gmake: *** [Makefile:146: all] Error 2
+[8.074s] Invoked command in '/home/mtrn/MTRN4231_final_project/build/path_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/MTRN4231_final_project/build/path_planning -- -j4 -l4

@@ -1,0 +1,51 @@
+[35m[1mConsolidate compiler generated dependencies of target brain_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/brain_node.dir/src/brain_node.cpp.o[0m
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:[m[K In lambda function:
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:16:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   16 |             [this]([01;35m[Kconst tf2_msgs::msg::TFMessage::SharedPtr msg[m[K) {
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:[m[K In lambda function:
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:26:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   26 |             [this]([01;35m[Kconst geometry_msgs::msg::Point32::SharedPtr msg[m[K) {
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:[m[K In member function ‘[01m[Kvoid BrainNode::handle_pen_colours(std_msgs::msg::Int32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:41:41:[m[K [01;35m[Kwarning: [m[Kdivision ‘[01m[Ksizeof (std_msgs::msg::Int32MultiArray_<std::allocator<void> >*) / sizeof (std_msgs::msg::Int32MultiArray_<std::allocator<void> >)[m[K’ does not compute the number of array elements [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-pointer-div-Wsizeof-pointer-div]8;;[m[K]
+   41 |             int N = [01;35m[Ksizeof(colours_arr) / sizeof(colours_arr[0])[m[K;
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:40:18:[m[K [01;36m[Knote: [m[Kfirst ‘[01m[Ksizeof[m[K’ operand was declared here
+   40 |             auto [01;36m[Kcolours_arr[m[K = msg.get();
+      |                  [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:45:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::Int32MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   45 |             remove_values_within_range(missing_colours, msg.[01;31m[Kdata[m[K, 0.15);
+      |                                                             [01;31m[K^~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:66[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:1[m[K:
+/usr/include/c++/11/bits/stl_uninitialized.h: In instantiation of ‘[01m[K_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std_msgs::msg::Int32MultiArray_<std::allocator<void> >*; _ForwardIterator = double*][m[K’:
+[01m[K/usr/include/c++/11/bits/stl_uninitialized.h:333:37:[m[K   required from ‘[01m[K_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std_msgs::msg::Int32MultiArray_<std::allocator<void> >*; _ForwardIterator = double*; _Tp = double][m[K’
+[01m[K/usr/include/c++/11/bits/vector.tcc:751:34:[m[K   required from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_range_insert(std::vector<_Tp, _Alloc>::iterator, _ForwardIterator, _ForwardIterator, std::forward_iterator_tag) [with _ForwardIterator = std_msgs::msg::Int32MultiArray_<std::allocator<void> >*; _Tp = double; _Alloc = std::allocator<double>; std::vector<_Tp, _Alloc>::iterator = std::vector<double, std::allocator<double> >::iterator][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:1665:19:[m[K   required from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_insert_dispatch(std::vector<_Tp, _Alloc>::iterator, _InputIterator, _InputIterator, std::__false_type) [with _InputIterator = std_msgs::msg::Int32MultiArray_<std::allocator<void> >*; _Tp = double; _Alloc = std::allocator<double>; std::vector<_Tp, _Alloc>::iterator = std::vector<double, std::allocator<double> >::iterator][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:1383:22:[m[K   required from ‘[01m[Kstd::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, _InputIterator, _InputIterator) [with _InputIterator = std_msgs::msg::Int32MultiArray_<std::allocator<void> >*; <template-parameter-2-2> = void; _Tp = double; _Alloc = std::allocator<double>; std::vector<_Tp, _Alloc>::iterator = std::vector<double, std::allocator<double> >::iterator; std::vector<_Tp, _Alloc>::const_iterator = std::vector<double, std::allocator<double> >::const_iterator][m[K’
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:42:27:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/stl_uninitialized.h:138:72:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: result type must be constructible from value type of input range
+  138 |       static_assert(is_constructible<_ValueType2, decltype(*__first)>::[01;31m[Kvalue[m[K,
+      |                                                                        [01;31m[K^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_uninitialized.h:138:72:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::integral_constant<bool, false>::value[m[K’ evaluates to false
+In file included from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:1[m[K:
+/usr/include/c++/11/bits/stl_algobase.h: In instantiation of ‘[01m[Kstatic _OI std::__copy_move<false, false, std::random_access_iterator_tag>::__copy_m(_II, _II, _OI) [with _II = std_msgs::msg::Int32MultiArray_<std::allocator<void> >*; _OI = double*][m[K’:
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:495:30:[m[K   required from ‘[01m[K_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = std_msgs::msg::Int32MultiArray_<std::allocator<void> >*; _OI = double*][m[K’
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:522:42:[m[K   required from ‘[01m[K_OI std::__copy_move_a1(_II, _II, _OI) [with bool _IsMove = false; _II = std_msgs::msg::Int32MultiArray_<std::allocator<void> >*; _OI = double*][m[K’
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:530:31:[m[K   required from ‘[01m[K_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = std_msgs::msg::Int32MultiArray_<std::allocator<void> >*; _OI = __gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >][m[K’
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:620:7:[m[K   required from ‘[01m[K_OI std::copy(_II, _II, _OI) [with _II = std_msgs::msg::Int32MultiArray_<std::allocator<void> >*; _OI = __gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >][m[K’
+[01m[K/usr/include/c++/11/bits/vector.tcc:744:16:[m[K   required from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_range_insert(std::vector<_Tp, _Alloc>::iterator, _ForwardIterator, _ForwardIterator, std::forward_iterator_tag) [with _ForwardIterator = std_msgs::msg::Int32MultiArray_<std::allocator<void> >*; _Tp = double; _Alloc = std::allocator<double>; std::vector<_Tp, _Alloc>::iterator = std::vector<double, std::allocator<double> >::iterator][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:1665:19:[m[K   required from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_insert_dispatch(std::vector<_Tp, _Alloc>::iterator, _InputIterator, _InputIterator, std::__false_type) [with _InputIterator = std_msgs::msg::Int32MultiArray_<std::allocator<void> >*; _Tp = double; _Alloc = std::allocator<double>; std::vector<_Tp, _Alloc>::iterator = std::vector<double, std::allocator<double> >::iterator][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:1383:22:[m[K   required from ‘[01m[Kstd::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::insert(std::vector<_Tp, _Alloc>::const_iterator, _InputIterator, _InputIterator) [with _InputIterator = std_msgs::msg::Int32MultiArray_<std::allocator<void> >*; <template-parameter-2-2> = void; _Tp = double; _Alloc = std::allocator<double>; std::vector<_Tp, _Alloc>::iterator = std::vector<double, std::allocator<double> >::iterator; std::vector<_Tp, _Alloc>::const_iterator = std::vector<double, std::allocator<double> >::const_iterator][m[K’
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:42:27:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/stl_algobase.h:385:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd_msgs::msg::Int32MultiArray_<std::allocator<void> >[m[K’ to ‘[01m[Kdouble[m[K’ in assignment
+  385 |               [01;31m[K*__result = *__first[m[K;
+      |               [01;31m[K~~~~~~~~~~^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/brain_node.dir/build.make:76: CMakeFiles/brain_node.dir/src/brain_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/brain_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

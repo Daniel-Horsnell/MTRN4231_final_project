@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target brain_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/brain_node.dir/src/brain_node.cpp.o[0m
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:[m[K In lambda function:
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:16:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   16 |             [this]([01;35m[Kconst tf2_msgs::msg::TFMessage::SharedPtr msg[m[K) {
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:[m[K In lambda function:
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:26:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   26 |             [this]([01;35m[Kconst geometry_msgs::msg::Point32::SharedPtr msg[m[K) {
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:[m[K In member function ‘[01m[Kvoid BrainNode::handle_pen_colours(std_msgs::msg::Int32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:41:41:[m[K [01;35m[Kwarning: [m[Kdivision ‘[01m[Ksizeof (std_msgs::msg::Int32MultiArray_<std::allocator<void> >*) / sizeof (std_msgs::msg::Int32MultiArray_<std::allocator<void> >)[m[K’ does not compute the number of array elements [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-pointer-div-Wsizeof-pointer-div]8;;[m[K]
+   41 |             int N = [01;35m[Ksizeof(colours_arr) / sizeof(colours_arr[0])[m[K;
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:40:18:[m[K [01;36m[Knote: [m[Kfirst ‘[01m[Ksizeof[m[K’ operand was declared here
+   40 |             auto [01;36m[Kcolours_arr[m[K = msg.get();
+      |                  [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:42:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcolour_arrs[m[K’ was not declared in this scope; did you mean ‘[01m[Kcolours_arr[m[K’?
+   42 |             colours(colours_arr, [01;31m[Kcolour_arrs[m[K + N);
+      |                                  [01;31m[K^~~~~~~~~~~[m[K
+      |                                  [32m[Kcolours_arr[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:45:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[KremoveValuesWithinRange[m[K’
+   45 |             [01;31m[KremoveValuesWithinRange[m[K(missing_colours, msg.data, 0.15)
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/brain_node.dir/build.make:76: CMakeFiles/brain_node.dir/src/brain_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/brain_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

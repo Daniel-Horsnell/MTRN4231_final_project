@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mtrn/4231/MTRN4231_final_project/locator
+CMAKE_SOURCE_DIR = /home/mtrn/MTRN4231_final_project/locator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mtrn/4231/MTRN4231_final_project/build/locator
+CMAKE_BINARY_DIR = /home/mtrn/MTRN4231_final_project/build/locator
 
 # Utility rule file for locator_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/locator_uninstall.dir/compiler_depend.make
 include CMakeFiles/locator_uninstall.dir/progress.make
 
 CMakeFiles/locator_uninstall:
-	/usr/bin/cmake -P /home/mtrn/4231/MTRN4231_final_project/build/locator/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/mtrn/MTRN4231_final_project/build/locator/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 locator_uninstall: CMakeFiles/locator_uninstall
 locator_uninstall: CMakeFiles/locator_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/locator_uninstall.dir/clean:
 .PHONY : CMakeFiles/locator_uninstall.dir/clean
 
 CMakeFiles/locator_uninstall.dir/depend:
-	cd /home/mtrn/4231/MTRN4231_final_project/build/locator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/4231/MTRN4231_final_project/locator /home/mtrn/4231/MTRN4231_final_project/locator /home/mtrn/4231/MTRN4231_final_project/build/locator /home/mtrn/4231/MTRN4231_final_project/build/locator /home/mtrn/4231/MTRN4231_final_project/build/locator/CMakeFiles/locator_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mtrn/MTRN4231_final_project/build/locator && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mtrn/MTRN4231_final_project/locator /home/mtrn/MTRN4231_final_project/locator /home/mtrn/MTRN4231_final_project/build/locator /home/mtrn/MTRN4231_final_project/build/locator /home/mtrn/MTRN4231_final_project/build/locator/CMakeFiles/locator_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/locator_uninstall.dir/depend
 
