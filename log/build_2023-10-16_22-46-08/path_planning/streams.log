@@ -1,0 +1,24 @@
+[0.752s] Invoking command in '/home/mtrn/MTRN4231_final_project/build/path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/MTRN4231_final_project/install/image_processing:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/MTRN4231_final_project/build/path_planning -- -j4 -l4
+[0.906s] [35m[1mConsolidate compiler generated dependencies of target brain_node[0m
+[1.010s] [ 50%] [32mBuilding CXX object CMakeFiles/brain_node.dir/src/brain_node.cpp.o[0m
+[21.649s] [100%] [32m[1mLinking CXX executable brain_node[0m
+[22.943s] [100%] Built target brain_node
+[22.965s] Invoked command in '/home/mtrn/MTRN4231_final_project/build/path_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/MTRN4231_final_project/install/image_processing:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/MTRN4231_final_project/build/path_planning -- -j4 -l4
+[23.062s] Invoking command in '/home/mtrn/MTRN4231_final_project/build/path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/MTRN4231_final_project/install/image_processing:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mtrn/MTRN4231_final_project/build/path_planning
+[23.079s] -- Install configuration: ""
+[23.080s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/ament_index/resource_index/package_run_dependencies/path_planning
+[23.081s] -- Installing: /home/mtrn/MTRN4231_final_project/install/path_planning/share/ament_index/resource_index/parent_prefix_path/path_planning
+[23.087s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/environment/ament_prefix_path.sh
+[23.088s] -- Installing: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/environment/ament_prefix_path.dsv
+[23.088s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/environment/path.sh
+[23.089s] -- Installing: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/environment/path.dsv
+[23.091s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/local_setup.bash
+[23.091s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/local_setup.sh
+[23.092s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/local_setup.zsh
+[23.092s] -- Installing: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/local_setup.dsv
+[23.093s] -- Installing: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/package.dsv
+[23.094s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/ament_index/resource_index/packages/path_planning
+[23.094s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/cmake/path_planningConfig.cmake
+[23.095s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/cmake/path_planningConfig-version.cmake
+[23.095s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/package.xml
+[23.117s] Invoked command in '/home/mtrn/MTRN4231_final_project/build/path_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/MTRN4231_final_project/install/image_processing:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mtrn/MTRN4231_final_project/build/path_planning

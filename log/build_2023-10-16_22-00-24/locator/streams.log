@@ -1,0 +1,21 @@
+[0.645s] Invoking command in '/home/mtrn/MTRN4231_final_project/build/locator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/MTRN4231_final_project/install/image_processing:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/mtrn/MTRN4231_final_project/locator -DCMAKE_INSTALL_PREFIX=/home/mtrn/MTRN4231_final_project/install/locator
+[0.806s] -- The C compiler identification is GNU 11.4.0
+[0.914s] -- The CXX compiler identification is GNU 11.4.0
+[0.929s] -- Detecting C compiler ABI info
+[1.124s] -- Detecting C compiler ABI info - done
+[1.132s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.139s] -- Detecting C compile features
+[1.140s] -- Detecting C compile features - done
+[1.145s] -- Detecting CXX compiler ABI info
+[1.385s] -- Detecting CXX compiler ABI info - done
+[1.406s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.406s] -- Detecting CXX compile features
+[1.407s] -- Detecting CXX compile features - done
+[1.419s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.827s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.211s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.491s] -- Added test 'lint_cmake' to check CMake code style
+[2.495s] -- Added test 'xmllint' to check XML markup files
+[2.505s] -- Configuring done
+[2.517s] -- Generating done
+[2.519s] -- Build files have been written to: /home/mtrn/MTRN4231_final_project/build/locator

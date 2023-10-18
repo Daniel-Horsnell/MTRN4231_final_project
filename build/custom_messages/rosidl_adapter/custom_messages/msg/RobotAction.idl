@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_messages/msg/RobotAction.msg
+// generated code does not contain a copyright notice
+
+
+module custom_messages {
+  module msg {
+    @verbatim (language="comment", text=
+      "Robot Action Message")
+    struct RobotAction {
+      string command;
+
+      sequence<double> x;
+
+      sequence<double> y;
+    };
+  };
+};

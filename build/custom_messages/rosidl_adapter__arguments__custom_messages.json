@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_messages",
+  "non_idl_tuples": [
+    "/home/mtrn/MTRN4231_final_project/custom_messages:msg/RobotAction.msg"
+  ]
+}

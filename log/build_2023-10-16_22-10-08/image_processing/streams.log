@@ -1,0 +1,21 @@
+[1.761s] Invoking command in '/home/mtrn/MTRN4231_final_project/image_processing': PYTHONPATH=/home/mtrn/MTRN4231_final_project/build/image_processing/prefix_override:/home/mtrn/MTRN4231_final_project/install/image_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/image_processing build --build-base /home/mtrn/MTRN4231_final_project/build/image_processing/build install --record /home/mtrn/MTRN4231_final_project/build/image_processing/install.log --single-version-externally-managed
+[2.238s] running egg_info
+[2.240s] writing ../build/image_processing/image_processing.egg-info/PKG-INFO
+[2.242s] writing dependency_links to ../build/image_processing/image_processing.egg-info/dependency_links.txt
+[2.242s] writing entry points to ../build/image_processing/image_processing.egg-info/entry_points.txt
+[2.242s] writing requirements to ../build/image_processing/image_processing.egg-info/requires.txt
+[2.242s] writing top-level names to ../build/image_processing/image_processing.egg-info/top_level.txt
+[2.244s] reading manifest file '../build/image_processing/image_processing.egg-info/SOURCES.txt'
+[2.246s] writing manifest file '../build/image_processing/image_processing.egg-info/SOURCES.txt'
+[2.246s] running build
+[2.246s] running build_py
+[2.247s] running install
+[2.247s] running install_lib
+[2.251s] running install_data
+[2.251s] running install_egg_info
+[2.255s] removing '/home/mtrn/MTRN4231_final_project/install/image_processing/lib/python3.10/site-packages/image_processing-0.0.0-py3.10.egg-info' (and everything under it)
+[2.255s] Copying ../build/image_processing/image_processing.egg-info to /home/mtrn/MTRN4231_final_project/install/image_processing/lib/python3.10/site-packages/image_processing-0.0.0-py3.10.egg-info
+[2.257s] running install_scripts
+[2.296s] Installing smile_detector_node script to /home/mtrn/MTRN4231_final_project/install/image_processing/lib/image_processing
+[2.296s] writing list of installed files to '/home/mtrn/MTRN4231_final_project/build/image_processing/install.log'
+[2.371s] Invoked command in '/home/mtrn/MTRN4231_final_project/image_processing' returned '0': PYTHONPATH=/home/mtrn/MTRN4231_final_project/build/image_processing/prefix_override:/home/mtrn/MTRN4231_final_project/install/image_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/image_processing build --build-base /home/mtrn/MTRN4231_final_project/build/image_processing/build install --record /home/mtrn/MTRN4231_final_project/build/image_processing/install.log --single-version-externally-managed

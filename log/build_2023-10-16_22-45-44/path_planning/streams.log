@@ -1,0 +1,11 @@
+[0.789s] Invoking command in '/home/mtrn/MTRN4231_final_project/build/path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/MTRN4231_final_project/install/image_processing:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/MTRN4231_final_project/build/path_planning -- -j4 -l4
+[0.935s] [35m[1mConsolidate compiler generated dependencies of target brain_node[0m
+[0.985s] [ 50%] [32mBuilding CXX object CMakeFiles/brain_node.dir/src/brain_node.cpp.o[0m
+[5.883s] [01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:[m[K In member function ‘[01m[Kvoid BrainNode::handle_start_process(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.884s] [01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:83:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[5.884s]    83 |         [01;31m[K}[m[K
+[5.884s]       |         [01;31m[K^[m[K
+[11.456s] gmake[2]: *** [CMakeFiles/brain_node.dir/build.make:76: CMakeFiles/brain_node.dir/src/brain_node.cpp.o] Error 1
+[11.461s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/brain_node.dir/all] Error 2
+[11.463s] gmake: *** [Makefile:146: all] Error 2
+[11.477s] Invoked command in '/home/mtrn/MTRN4231_final_project/build/path_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/MTRN4231_final_project/install/image_processing:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/MTRN4231_final_project/build/path_planning -- -j4 -l4

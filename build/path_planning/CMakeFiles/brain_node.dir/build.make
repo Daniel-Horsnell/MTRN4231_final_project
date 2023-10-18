@@ -99,6 +99,12 @@ brain_node: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so
 brain_node: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so
 brain_node: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_cpp.so
 brain_node: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_py.so
+brain_node: /home/mtrn/MTRN4231_final_project/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_c.so
+brain_node: /home/mtrn/MTRN4231_final_project/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_c.so
+brain_node: /home/mtrn/MTRN4231_final_project/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_cpp.so
+brain_node: /home/mtrn/MTRN4231_final_project/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_cpp.so
+brain_node: /home/mtrn/MTRN4231_final_project/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_cpp.so
+brain_node: /home/mtrn/MTRN4231_final_project/install/custom_messages/lib/libcustom_messages__rosidl_generator_py.so
 brain_node: /opt/ros/humble/lib/liblibstatistics_collector.so
 brain_node: /opt/ros/humble/lib/librcl.so
 brain_node: /opt/ros/humble/lib/librmw_implementation.so
@@ -137,7 +143,6 @@ brain_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 brain_node: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
 brain_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 brain_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so
-brain_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 brain_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 brain_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 brain_node: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
@@ -148,22 +153,16 @@ brain_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 brain_node: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
 brain_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 brain_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
-brain_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-brain_node: /opt/ros/humble/lib/libfastcdr.so.1.0.24
-brain_node: /opt/ros/humble/lib/librmw.so
 brain_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 brain_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 brain_node: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
 brain_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 brain_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
-brain_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
-brain_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 brain_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 brain_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 brain_node: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so
 brain_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 brain_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
-brain_node: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 brain_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 brain_node: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_c.so
 brain_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
@@ -179,13 +178,22 @@ brain_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 brain_node: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
 brain_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 brain_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so
-brain_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 brain_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
 brain_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
+brain_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
+brain_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
+brain_node: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+brain_node: /opt/ros/humble/lib/librmw.so
+brain_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
+brain_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
+brain_node: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
+brain_node: /home/mtrn/MTRN4231_final_project/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_c.so
+brain_node: /home/mtrn/MTRN4231_final_project/install/custom_messages/lib/libcustom_messages__rosidl_generator_c.so
 brain_node: /opt/ros/humble/lib/librosidl_typesupport_c.so
 brain_node: /opt/ros/humble/lib/librcpputils.so
 brain_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 brain_node: /opt/ros/humble/lib/librcutils.so
+brain_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 brain_node: CMakeFiles/brain_node.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mtrn/MTRN4231_final_project/build/path_planning/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable brain_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/brain_node.dir/link.txt --verbose=$(VERBOSE)

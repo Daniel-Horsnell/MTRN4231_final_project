@@ -11,9 +11,7 @@ find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(tf2_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
+find_package(custom_messages REQUIRED)
 
 # Add executable
 add_executable(brain_node src/brain_node.cpp)
@@ -24,6 +22,7 @@ ament_target_dependencies(brain_node
   geometry_msgs
   tf2_msgs
   std_msgs
+  custom_messages
 )
 
 if(BUILD_TESTING)

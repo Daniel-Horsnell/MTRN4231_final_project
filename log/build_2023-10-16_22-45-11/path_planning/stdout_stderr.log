@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target brain_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/brain_node.dir/src/brain_node.cpp.o[0m
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:90:41:[m[K [01;31m[Kerror: [m[K‘[01m[KBoolean[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KBool_[m[K’?
+   90 |     rclcpp::Subscription<std_msgs::msg::[01;31m[KBoolean[m[K>::SharedPtr image_obtained_subscriber_;
+      |                                         [01;31m[K^~~~~~~[m[K
+      |                                         [32m[KBool_[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:90:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   90 |     rclcpp::Subscription<std_msgs::msg::Boolean[01;31m[K>[m[K::SharedPtr image_obtained_subscriber_;
+      |                                                [01;31m[K^[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:90:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:90:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:90:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:90:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   90 |     rclcpp::Subscription<std_msgs::msg::Boolean>::[01;31m[KSharedPtr[m[K image_obtained_subscriber_;
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                            [32m[K;[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:90:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_obtained_subscriber_[m[K’ does not name a type
+   90 |     rclcpp::Subscription<std_msgs::msg::Boolean>::SharedPtr [01;31m[Kimage_obtained_subscriber_[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:[m[K In constructor ‘[01m[KBrainNode::BrainNode()[m[K’:
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_obtained_subscriber_[m[K’ was not declared in this scope
+   25 |         [01;31m[Kimage_obtained_subscriber_[m[K = create_subscription<std_msgs::msg::Bool>("/image_obtained", 10, std::bind(&BrainNode::handle_start_process, this,  std::placeholders::_1));
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:[m[K In member function ‘[01m[Kvoid BrainNode::handle_start_process(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:83:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   83 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/brain_node.dir/build.make:76: CMakeFiles/brain_node.dir/src/brain_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/brain_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

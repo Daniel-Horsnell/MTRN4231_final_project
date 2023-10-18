@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target brain_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/brain_node.dir/src/brain_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable brain_node[0m
+[100%] Built target brain_node
+-- Install configuration: ""
+-- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/ament_index/resource_index/package_run_dependencies/path_planning
+-- Installing: /home/mtrn/MTRN4231_final_project/install/path_planning/share/ament_index/resource_index/parent_prefix_path/path_planning
+-- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/environment/ament_prefix_path.sh
+-- Installing: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/environment/path.sh
+-- Installing: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/environment/path.dsv
+-- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/local_setup.bash
+-- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/local_setup.sh
+-- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/local_setup.zsh
+-- Installing: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/local_setup.dsv
+-- Installing: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/package.dsv
+-- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/ament_index/resource_index/packages/path_planning
+-- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/cmake/path_planningConfig.cmake
+-- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/cmake/path_planningConfig-version.cmake
+-- Up-to-date: /home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/package.xml

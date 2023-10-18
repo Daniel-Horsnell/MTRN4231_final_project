@@ -242,7 +242,7 @@ RMW_IMPLEMENTATION:STRING=rmw_cyclonedds_cpp
 SITE:STRING=mtrn-VirtualBox
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/mtrn/MTRN4231_final_project/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
@@ -336,6 +336,9 @@ ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
+
+//The directory containing a CMake configuration file for custom_messages.
+custom_messages_DIR:PATH=/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake
 
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/humble/lib/cmake/fastcdr

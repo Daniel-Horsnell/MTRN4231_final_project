@@ -1,0 +1,142 @@
+[0.171s] Invoking command in '/home/mtrn/MTRN4231_final_project/build/custom_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/MTRN4231_final_project/install/image_processing:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/MTRN4231_final_project/build/custom_messages -- -j4 -l4
+[0.757s] [  3%] Built target custom_messages__cpp
+[0.758s] [ 12%] Built target custom_messages__rosidl_generator_c
+[0.758s] [ 12%] Built target ament_cmake_python_copy_custom_messages
+[0.758s] [ 22%] Built target custom_messages__rosidl_typesupport_fastrtps_cpp
+[0.758s] [ 32%] Built target custom_messages__rosidl_typesupport_cpp
+[0.758s] [ 41%] Built target custom_messages__rosidl_typesupport_introspection_cpp
+[0.758s] [ 51%] Built target custom_messages__rosidl_typesupport_fastrtps_c
+[0.759s] [ 61%] Built target custom_messages__rosidl_typesupport_introspection_c
+[0.759s] [ 70%] Built target custom_messages__rosidl_typesupport_c
+[0.759s] [ 70%] Built target custom_messages
+[0.787s] [ 74%] Built target custom_messages__py
+[0.876s] [ 80%] Built target custom_messages__rosidl_generator_py
+[1.004s] [ 87%] Built target custom_messages__rosidl_typesupport_fastrtps_c__pyext
+[1.012s] [ 93%] Built target custom_messages__rosidl_typesupport_c__pyext
+[1.035s] [100%] Built target custom_messages__rosidl_typesupport_introspection_c__pyext
+[1.217s] running egg_info
+[1.220s] writing custom_messages.egg-info/PKG-INFO
+[1.220s] writing dependency_links to custom_messages.egg-info/dependency_links.txt
+[1.221s] writing top-level names to custom_messages.egg-info/top_level.txt
+[1.248s] reading manifest file 'custom_messages.egg-info/SOURCES.txt'
+[1.250s] writing manifest file 'custom_messages.egg-info/SOURCES.txt'
+[1.308s] [100%] Built target ament_cmake_python_build_custom_messages_egg
+[1.394s] Invoked command in '/home/mtrn/MTRN4231_final_project/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/MTRN4231_final_project/install/image_processing:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/MTRN4231_final_project/build/custom_messages -- -j4 -l4
+[1.744s] Invoking command in '/home/mtrn/MTRN4231_final_project/build/custom_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/MTRN4231_final_project/install/image_processing:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mtrn/MTRN4231_final_project/build/custom_messages
+[1.779s] -- Install configuration: ""
+[1.780s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/ament_index/resource_index/rosidl_interfaces/custom_messages
+[1.780s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages
+[1.780s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg
+[1.781s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_generator_c__visibility_control.h
+[1.781s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[1.781s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail/robot_action__type_support.h
+[1.781s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail/robot_action__functions.c
+[1.782s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail/robot_action__functions.h
+[1.782s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail/robot_action__struct.h
+[1.782s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/robot_action.h
+[1.782s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/environment/library_path.sh
+[1.783s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/environment/library_path.dsv
+[1.783s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/lib/libcustom_messages__rosidl_generator_c.so
+[1.784s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages
+[1.784s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg
+[1.784s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.785s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[1.785s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail/robot_action__rosidl_typesupport_fastrtps_c.h
+[1.785s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_c.so
+[1.786s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages
+[1.786s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg
+[1.787s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.787s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[1.788s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail/robot_action__type_support.c
+[1.788s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail/robot_action__rosidl_typesupport_introspection_c.h
+[1.788s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_c.so
+[1.789s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_c.so
+[1.789s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages
+[1.790s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg
+[1.790s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/robot_action.hpp
+[1.790s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[1.791s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail/robot_action__struct.hpp
+[1.791s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail/robot_action__traits.hpp
+[1.791s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail/robot_action__builder.hpp
+[1.791s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages
+[1.791s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg
+[1.792s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[1.792s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail/robot_action__rosidl_typesupport_fastrtps_cpp.hpp
+[1.792s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail/dds_fastrtps
+[1.792s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.793s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_cpp.so
+[1.794s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages
+[1.794s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg
+[1.794s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[1.795s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail/robot_action__type_support.cpp
+[1.795s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/include/custom_messages/custom_messages/msg/detail/robot_action__rosidl_typesupport_introspection_cpp.hpp
+[1.795s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_cpp.so
+[1.796s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_cpp.so
+[1.796s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/environment/pythonpath.sh
+[1.797s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/environment/pythonpath.dsv
+[1.797s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info
+[1.797s] -- Installing: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/top_level.txt
+[1.798s] -- Installing: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.799s] -- Installing: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/PKG-INFO
+[1.799s] -- Installing: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.800s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages
+[1.800s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/libcustom_messages__rosidl_generator_py.so
+[1.800s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.801s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.801s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/_custom_messages_s.ep.rosidl_typesupport_introspection_c.c
+[1.801s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/_custom_messages_s.ep.rosidl_typesupport_c.c
+[1.801s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.801s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.802s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg
+[1.802s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/_robot_action.py
+[1.802s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/_robot_action_s.c
+[1.802s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/__init__.py
+[1.803s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/__init__.py
+[1.900s] Listing '/home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages'...
+[1.900s] Listing '/home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg'...
+[1.914s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.914s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.914s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.915s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/lib/libcustom_messages__rosidl_generator_py.so
+[1.915s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/msg/RobotAction.idl
+[1.915s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/msg/RobotAction.msg
+[1.915s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/ament_index/resource_index/package_run_dependencies/custom_messages
+[1.915s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/ament_index/resource_index/parent_prefix_path/custom_messages
+[1.915s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/environment/ament_prefix_path.sh
+[1.915s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/environment/ament_prefix_path.dsv
+[1.915s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/environment/path.sh
+[1.915s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/environment/path.dsv
+[1.915s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/local_setup.bash
+[1.916s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/local_setup.sh
+[1.916s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/local_setup.zsh
+[1.916s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/local_setup.dsv
+[1.916s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/package.dsv
+[1.916s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/ament_index/resource_index/packages/custom_messages
+[1.916s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cExport.cmake
+[1.916s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cExport-noconfig.cmake
+[1.916s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cExport.cmake
+[1.916s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.916s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cExport.cmake
+[1.916s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.916s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cExport.cmake
+[1.917s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cExport-noconfig.cmake
+[1.917s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cppExport.cmake
+[1.917s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.917s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.917s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cppExport.cmake
+[1.917s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.917s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cppExport.cmake
+[1.917s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cppExport-noconfig.cmake
+[1.917s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_pyExport.cmake
+[1.917s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_pyExport-noconfig.cmake
+[1.917s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/rosidl_cmake-extras.cmake
+[1.918s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.918s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_libraries-extras.cmake
+[1.918s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_targets-extras.cmake
+[1.918s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.918s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.918s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.918s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/custom_messagesConfig.cmake
+[1.918s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/cmake/custom_messagesConfig-version.cmake
+[1.918s] -- Up-to-date: /home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/package.xml
+[1.945s] Invoked command in '/home/mtrn/MTRN4231_final_project/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/MTRN4231_final_project/install/image_processing:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mtrn/MTRN4231_final_project/build/custom_messages

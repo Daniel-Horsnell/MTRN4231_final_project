@@ -1,0 +1,291 @@
+[0.655s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.656s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fc552aeb1c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc552aeab30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc552aeab30>>, mixin_verb=('build',))
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.710s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.710s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.710s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.710s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mtrn/MTRN4231_final_project'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extensions ['ignore', 'ignore_ament_install']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extension 'ignore'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extension 'ignore_ament_install'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extensions ['colcon_pkg']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extension 'colcon_pkg'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extensions ['colcon_meta']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extension 'colcon_meta'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extensions ['ros']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extension 'ros'
+[0.738s] DEBUG:colcon.colcon_core.package_identification:Package 'custom_messages' with type 'ros.ament_cmake' and name 'custom_messages'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extensions ['ignore', 'ignore_ament_install']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extension 'ignore'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extension 'ignore_ament_install'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extensions ['colcon_pkg']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extension 'colcon_pkg'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extensions ['colcon_meta']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extension 'colcon_meta'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extensions ['ros']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(image_processing) by extension 'ros'
+[0.740s] DEBUG:colcon.colcon_core.package_identification:Package 'image_processing' with type 'ros.ament_python' and name 'image_processing'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(locator) by extensions ['ignore', 'ignore_ament_install']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(locator) by extension 'ignore'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(locator) by extension 'ignore_ament_install'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(locator) by extensions ['colcon_pkg']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(locator) by extension 'colcon_pkg'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(locator) by extensions ['colcon_meta']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(locator) by extension 'colcon_meta'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(locator) by extensions ['ros']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(locator) by extension 'ros'
+[0.742s] DEBUG:colcon.colcon_core.package_identification:Package 'locator' with type 'ros.ament_cmake' and name 'locator'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(path_planning) by extensions ['ignore', 'ignore_ament_install']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(path_planning) by extension 'ignore'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(path_planning) by extension 'ignore_ament_install'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(path_planning) by extensions ['colcon_pkg']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(path_planning) by extension 'colcon_pkg'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(path_planning) by extensions ['colcon_meta']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(path_planning) by extension 'colcon_meta'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(path_planning) by extensions ['ros']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(path_planning) by extension 'ros'
+[0.744s] DEBUG:colcon.colcon_core.package_identification:Package 'path_planning' with type 'ros.ament_cmake' and name 'path_planning'
+[0.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.785s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.786s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.796s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/mtrn/4231/ros_ur_driver/install
+[0.804s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 55 installed packages in /home/mtrn/4231/ws_moveit2/install
+[0.810s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 341 installed packages in /opt/ros/humble
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_args' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_target' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_clean_cache' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_clean_first' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_force_configure' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'ament_cmake_args' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'catkin_cmake_args' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.935s] DEBUG:colcon.colcon_core.verb:Building package 'custom_messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mtrn/MTRN4231_final_project/build/custom_messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mtrn/MTRN4231_final_project/install/custom_messages', 'merge_install': False, 'path': '/home/mtrn/MTRN4231_final_project/custom_messages', 'symlink_install': False, 'test_result_base': None}
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_target' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_clean_first' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'cmake_force_configure' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'ament_cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'image_processing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.937s] DEBUG:colcon.colcon_core.verb:Building package 'image_processing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mtrn/MTRN4231_final_project/build/image_processing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mtrn/MTRN4231_final_project/install/image_processing', 'merge_install': False, 'path': '/home/mtrn/MTRN4231_final_project/image_processing', 'symlink_install': False, 'test_result_base': None}
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'locator' build argument 'cmake_args' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'locator' build argument 'cmake_target' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'locator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'locator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'locator' build argument 'cmake_clean_first' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'locator' build argument 'cmake_force_configure' from command line to 'False'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'locator' build argument 'ament_cmake_args' from command line to 'None'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'locator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'locator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.940s] DEBUG:colcon.colcon_core.verb:Building package 'locator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mtrn/MTRN4231_final_project/build/locator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mtrn/MTRN4231_final_project/install/locator', 'merge_install': False, 'path': '/home/mtrn/MTRN4231_final_project/locator', 'symlink_install': False, 'test_result_base': None}
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_args' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_target' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_clean_cache' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_clean_first' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'cmake_force_configure' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'ament_cmake_args' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'catkin_cmake_args' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'path_planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.942s] DEBUG:colcon.colcon_core.verb:Building package 'path_planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mtrn/MTRN4231_final_project/build/path_planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mtrn/MTRN4231_final_project/install/path_planning', 'merge_install': False, 'path': '/home/mtrn/MTRN4231_final_project/path_planning', 'symlink_install': False, 'test_result_base': None}
+[0.944s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.952s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.953s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mtrn/MTRN4231_final_project/custom_messages' with build type 'ament_cmake'
+[0.953s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mtrn/MTRN4231_final_project/custom_messages'
+[0.961s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.962s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.962s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.979s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mtrn/MTRN4231_final_project/image_processing' with build type 'ament_python'
+[0.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_processing', 'ament_prefix_path')
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/image_processing/share/image_processing/hook/ament_prefix_path.ps1'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/MTRN4231_final_project/install/image_processing/share/image_processing/hook/ament_prefix_path.dsv'
+[0.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/image_processing/share/image_processing/hook/ament_prefix_path.sh'
+[0.990s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.990s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.011s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mtrn/MTRN4231_final_project/locator' with build type 'ament_cmake'
+[1.012s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mtrn/MTRN4231_final_project/locator'
+[1.023s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.051s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mtrn/MTRN4231_final_project/path_planning' with build type 'ament_cmake'
+[1.051s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mtrn/MTRN4231_final_project/path_planning'
+[1.055s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.056s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mtrn/MTRN4231_final_project/build/custom_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/MTRN4231_final_project/build/custom_messages -- -j4 -l4
+[1.681s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mtrn/MTRN4231_final_project/image_processing'
+[1.688s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.688s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mtrn/MTRN4231_final_project/build/locator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/MTRN4231_final_project/build/locator -- -j4 -l4
+[1.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mtrn/MTRN4231_final_project/build/path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/MTRN4231_final_project/build/path_planning -- -j4 -l4
+[1.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mtrn/MTRN4231_final_project/build/locator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/MTRN4231_final_project/build/locator -- -j4 -l4
+[2.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mtrn/MTRN4231_final_project/build/locator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mtrn/MTRN4231_final_project/build/locator
+[2.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mtrn/MTRN4231_final_project/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/MTRN4231_final_project/build/custom_messages -- -j4 -l4
+[2.089s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(locator)
+[2.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mtrn/MTRN4231_final_project/build/locator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mtrn/MTRN4231_final_project/build/locator
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/locator' for CMake module files
+[2.121s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/locator' for CMake config files
+[2.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('locator', 'cmake_prefix_path')
+[2.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/locator/share/locator/hook/cmake_prefix_path.ps1'
+[2.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/MTRN4231_final_project/install/locator/share/locator/hook/cmake_prefix_path.dsv'
+[2.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/locator/share/locator/hook/cmake_prefix_path.sh'
+[2.147s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/locator/bin'
+[2.147s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/locator/lib/pkgconfig/locator.pc'
+[2.148s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/locator/lib/python3.10/site-packages'
+[2.148s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/locator/bin'
+[2.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/locator/share/locator/package.ps1'
+[2.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mtrn/MTRN4231_final_project/install/locator/share/locator/package.dsv'
+[2.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/locator/share/locator/package.sh'
+[2.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/locator/share/locator/package.bash'
+[2.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/locator/share/locator/package.zsh'
+[2.178s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mtrn/MTRN4231_final_project/install/locator/share/colcon-core/packages/locator)
+[2.276s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(locator)
+[2.282s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/locator' for CMake module files
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/locator' for CMake config files
+[2.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('locator', 'cmake_prefix_path')
+[2.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/locator/share/locator/hook/cmake_prefix_path.ps1'
+[2.290s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/MTRN4231_final_project/install/locator/share/locator/hook/cmake_prefix_path.dsv'
+[2.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/locator/share/locator/hook/cmake_prefix_path.sh'
+[2.296s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/locator/bin'
+[2.296s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/locator/lib/pkgconfig/locator.pc'
+[2.297s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/locator/lib/python3.10/site-packages'
+[2.297s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/locator/bin'
+[2.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/locator/share/locator/package.ps1'
+[2.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mtrn/MTRN4231_final_project/install/locator/share/locator/package.dsv'
+[2.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/locator/share/locator/package.sh'
+[2.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/locator/share/locator/package.bash'
+[2.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/locator/share/locator/package.zsh'
+[2.314s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mtrn/MTRN4231_final_project/install/locator/share/colcon-core/packages/locator)
+[2.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mtrn/MTRN4231_final_project/build/custom_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mtrn/MTRN4231_final_project/build/custom_messages
+[2.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_messages)
+[2.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mtrn/MTRN4231_final_project/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mtrn/MTRN4231_final_project/build/custom_messages
+[2.480s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/custom_messages' for CMake module files
+[2.485s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/custom_messages' for CMake config files
+[2.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'cmake_prefix_path')
+[2.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.ps1'
+[2.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.dsv'
+[2.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.sh'
+[2.511s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/custom_messages/lib'
+[2.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'ld_library_path_lib')
+[2.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.ps1'
+[2.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.dsv'
+[2.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.sh'
+[2.525s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/custom_messages/bin'
+[2.525s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/custom_messages/lib/pkgconfig/custom_messages.pc'
+[2.525s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/custom_messages/lib/python3.10/site-packages'
+[2.526s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/custom_messages/bin'
+[2.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/package.ps1'
+[2.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/package.dsv'
+[2.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/package.sh'
+[2.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/package.bash'
+[2.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/package.zsh'
+[2.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mtrn/MTRN4231_final_project/install/custom_messages/share/colcon-core/packages/custom_messages)
+[2.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mtrn/MTRN4231_final_project/image_processing': PYTHONPATH=/home/mtrn/MTRN4231_final_project/build/image_processing/prefix_override:/home/mtrn/MTRN4231_final_project/install/image_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/image_processing build --build-base /home/mtrn/MTRN4231_final_project/build/image_processing/build install --record /home/mtrn/MTRN4231_final_project/build/image_processing/install.log --single-version-externally-managed
+[2.751s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_messages)
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/custom_messages' for CMake module files
+[2.759s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/custom_messages' for CMake config files
+[2.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'cmake_prefix_path')
+[2.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.ps1'
+[2.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.dsv'
+[2.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.sh'
+[2.767s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/custom_messages/lib'
+[2.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'ld_library_path_lib')
+[2.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.ps1'
+[2.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.dsv'
+[2.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.sh'
+[2.774s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/custom_messages/bin'
+[2.774s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/custom_messages/lib/pkgconfig/custom_messages.pc'
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/custom_messages/lib/python3.10/site-packages'
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/custom_messages/bin'
+[2.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/package.ps1'
+[2.783s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/package.dsv'
+[2.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/package.sh'
+[2.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/package.bash'
+[2.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/custom_messages/share/custom_messages/package.zsh'
+[2.786s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mtrn/MTRN4231_final_project/install/custom_messages/share/colcon-core/packages/custom_messages)
+[3.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mtrn/MTRN4231_final_project/build/path_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/MTRN4231_final_project/build/path_planning -- -j4 -l4
+[3.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mtrn/MTRN4231_final_project/image_processing' returned '0': PYTHONPATH=/home/mtrn/MTRN4231_final_project/build/image_processing/prefix_override:/home/mtrn/MTRN4231_final_project/install/image_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/image_processing build --build-base /home/mtrn/MTRN4231_final_project/build/image_processing/build install --record /home/mtrn/MTRN4231_final_project/build/image_processing/install.log --single-version-externally-managed
+[3.121s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/image_processing' for CMake module files
+[3.122s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/image_processing' for CMake config files
+[3.123s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/image_processing/lib'
+[3.123s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/image_processing/bin'
+[3.123s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/image_processing/lib/pkgconfig/image_processing.pc'
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/image_processing/lib/python3.10/site-packages'
+[3.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_processing', 'pythonpath')
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/image_processing/share/image_processing/hook/pythonpath.ps1'
+[3.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/MTRN4231_final_project/install/image_processing/share/image_processing/hook/pythonpath.dsv'
+[3.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/image_processing/share/image_processing/hook/pythonpath.sh'
+[3.133s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/image_processing/bin'
+[3.133s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_processing)
+[3.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/image_processing/share/image_processing/package.ps1'
+[3.138s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mtrn/MTRN4231_final_project/install/image_processing/share/image_processing/package.dsv'
+[3.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/image_processing/share/image_processing/package.sh'
+[3.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/image_processing/share/image_processing/package.bash'
+[3.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/image_processing/share/image_processing/package.zsh'
+[3.141s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mtrn/MTRN4231_final_project/install/image_processing/share/colcon-core/packages/image_processing)
+[3.146s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(path_planning)
+[3.151s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/path_planning' for CMake module files
+[3.153s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/path_planning' for CMake config files
+[3.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('path_planning', 'cmake_prefix_path')
+[3.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/hook/cmake_prefix_path.ps1'
+[3.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/hook/cmake_prefix_path.dsv'
+[3.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/hook/cmake_prefix_path.sh'
+[3.167s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/path_planning/bin'
+[3.167s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/path_planning/lib/pkgconfig/path_planning.pc'
+[3.167s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/path_planning/lib/python3.10/site-packages'
+[3.168s] Level 1:colcon.colcon_core.environment:checking '/home/mtrn/MTRN4231_final_project/install/path_planning/bin'
+[3.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/package.ps1'
+[3.174s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/package.dsv'
+[3.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/package.sh'
+[3.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/package.bash'
+[3.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/mtrn/MTRN4231_final_project/install/path_planning/share/path_planning/package.zsh'
+[3.180s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mtrn/MTRN4231_final_project/install/path_planning/share/colcon-core/packages/path_planning)
+[3.191s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.191s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.192s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[3.192s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.211s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.211s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.211s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.240s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.245s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mtrn/MTRN4231_final_project/install/local_setup.ps1'
+[3.247s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mtrn/MTRN4231_final_project/install/_local_setup_util_ps1.py'
+[3.249s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mtrn/MTRN4231_final_project/install/setup.ps1'
+[3.270s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mtrn/MTRN4231_final_project/install/local_setup.sh'
+[3.271s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mtrn/MTRN4231_final_project/install/_local_setup_util_sh.py'
+[3.272s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mtrn/MTRN4231_final_project/install/setup.sh'
+[3.280s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mtrn/MTRN4231_final_project/install/local_setup.bash'
+[3.282s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mtrn/MTRN4231_final_project/install/setup.bash'
+[3.301s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mtrn/MTRN4231_final_project/install/local_setup.zsh'
+[3.302s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mtrn/MTRN4231_final_project/install/setup.zsh'

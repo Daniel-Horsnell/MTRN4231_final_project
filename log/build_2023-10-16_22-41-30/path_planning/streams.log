@@ -1,0 +1,10 @@
+[0.873s] Invoking command in '/home/mtrn/MTRN4231_final_project/build/path_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/MTRN4231_final_project/install/image_processing:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/MTRN4231_final_project/build/path_planning -- -j4 -l4
+[1.132s] [ 50%] [32mBuilding CXX object CMakeFiles/brain_node.dir/src/brain_node.cpp.o[0m
+[1.553s] [01m[K/home/mtrn/MTRN4231_final_project/path_planning/src/brain_node.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcustom_msgs/msg/robot_action.msg: No such file or directory
+[1.553s]     5 | #include [01;31m[K"custom_msgs/msg/robot_action.msg"[m[K
+[1.553s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.553s] compilation terminated.
+[1.553s] gmake[2]: *** [CMakeFiles/brain_node.dir/build.make:76: CMakeFiles/brain_node.dir/src/brain_node.cpp.o] Error 1
+[1.553s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/brain_node.dir/all] Error 2
+[1.553s] gmake: *** [Makefile:146: all] Error 2
+[1.572s] Invoked command in '/home/mtrn/MTRN4231_final_project/build/path_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtrn/MTRN4231_final_project/install/image_processing:/home/mtrn/4231/ws_moveit2/install/moveit_configs_utils:/home/mtrn/4231/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mtrn/MTRN4231_final_project/build/path_planning -- -j4 -l4

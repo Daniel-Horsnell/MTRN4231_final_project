@@ -1,0 +1,20 @@
+[2.751s] Invoking command in '/home/mtrn/MTRN4231_final_project/image_processing': PYTHONPATH=/home/mtrn/MTRN4231_final_project/build/image_processing/prefix_override:/home/mtrn/MTRN4231_final_project/install/image_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/image_processing build --build-base /home/mtrn/MTRN4231_final_project/build/image_processing/build install --record /home/mtrn/MTRN4231_final_project/build/image_processing/install.log --single-version-externally-managed
+[3.483s] running egg_info
+[3.484s] writing ../build/image_processing/image_processing.egg-info/PKG-INFO
+[3.485s] writing dependency_links to ../build/image_processing/image_processing.egg-info/dependency_links.txt
+[3.485s] writing entry points to ../build/image_processing/image_processing.egg-info/entry_points.txt
+[3.485s] writing requirements to ../build/image_processing/image_processing.egg-info/requires.txt
+[3.486s] writing top-level names to ../build/image_processing/image_processing.egg-info/top_level.txt
+[3.490s] reading manifest file '../build/image_processing/image_processing.egg-info/SOURCES.txt'
+[3.496s] writing manifest file '../build/image_processing/image_processing.egg-info/SOURCES.txt'
+[3.496s] running build
+[3.496s] running build_py
+[3.497s] running install
+[3.497s] running install_lib
+[3.497s] running install_data
+[3.499s] running install_egg_info
+[3.502s] removing '/home/mtrn/MTRN4231_final_project/install/image_processing/lib/python3.10/site-packages/image_processing-0.0.0-py3.10.egg-info' (and everything under it)
+[3.503s] Copying ../build/image_processing/image_processing.egg-info to /home/mtrn/MTRN4231_final_project/install/image_processing/lib/python3.10/site-packages/image_processing-0.0.0-py3.10.egg-info
+[3.508s] running install_scripts
+[3.565s] Installing smile_detector_node script to /home/mtrn/MTRN4231_final_project/install/image_processing/lib/image_processing
+[3.567s] writing list of installed files to '/home/mtrn/MTRN4231_final_project/build/image_processing/install.log'
